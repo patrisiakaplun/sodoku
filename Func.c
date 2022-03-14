@@ -6,6 +6,7 @@ void freeArr(playerNode** arr, int size)
 
 void printWinners(WinList* win)///////may need to change to print to file
 {
+    printf("hello world");
     playerNode* curr = win->head;
     playerNode* saver;
 
